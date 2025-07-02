@@ -1,11 +1,40 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ExploreNDE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreNDE</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to ExploreNDE</h1>
-    <p>This is your Near-Death Experience search engine.</p>
+  <div class="container">
+    <header>
+      <h1>ExploreNDE</h1>
+      <p class="tagline">Guidance from the Other Side</p>
+      <form class="search-bar">
+        <input type="text" placeholder="Search NDEs by keyword..." />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <section class="results">
+      <div class="card">
+        <h2>Light and Peace</h2>
+        <p>I experienced an overwhelming sense of peace and saw a bright, loving light.</p>
+        <span class="country">United States</span>
+      </div>
+      <div class="card">
+        <h2>Meeting Deceased Relatives</h2>
+        <p>I met my grandmother and other family members who had passed away years ago.</p>
+        <span class="country">Canada</span>
+      </div>
+      <div class="card">
+        <h2>Life Review Experience</h2>
+        <p>I reviewed my entire life and felt the impact of my actions on others.</p>
+        <span class="country">Australia</span>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
